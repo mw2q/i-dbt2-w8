@@ -1,0 +1,504 @@
+Wed May  6 17:56:59 2015
+tid:-378730752 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 56821 waits for ShareLock on transaction 5691837; blocked by process 57016.
+Process 57016 waits for ShareLock on transaction 5691826; blocked by process 56821.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (35396,49) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:57:16 2015
+tid:-421386496 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 57096 waits for ShareLock on transaction 5794791; blocked by process 57116.
+Process 57116 waits for ShareLock on transaction 5794788; blocked by process 57096.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (25723,47) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:57:20 2015
+tid:-417372416 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 57056 waits for ShareLock on transaction 5820985; blocked by process 56811.
+Process 56811 waits for ShareLock on transaction 5820988; blocked by process 57056.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (36187,138) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:57:25 2015
+tid:-431421696 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 57196 waits for ShareLock on transaction 5855348; blocked by process 57036.
+Process 57036 waits for ShareLock on transaction 5855346; blocked by process 57196.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (34350,109) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:57:26 2015
+tid:-420182272 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 57084 waits for ShareLock on transaction 5856863; blocked by process 57124.
+Process 57124 waits for ShareLock on transaction 5856873; blocked by process 57084.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (37780,98) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:58:00 2015
+tid:-430618880 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 57188 waits for ShareLock on transaction 6050974; blocked by process 57036.
+Process 57036 waits for ShareLock on transaction 6050965; blocked by process 57188.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (39639,55) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:58:00 2015
+tid:-417372416 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 57056 waits for ShareLock on transaction 6051330; blocked by process 57148.
+Process 57148 waits for ShareLock on transaction 6051348; blocked by process 57056.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (34827,242) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:58:16 2015
+tid:-419780864 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 57080 waits for ShareLock on transaction 6132904; blocked by process 57024.
+Process 57024 waits for ShareLock on transaction 6132905; blocked by process 57080.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (24175,100) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:58:53 2015
+tid:-422189312 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 57104 waits for ShareLock on transaction 6305516; blocked by process 56964.
+Process 56964 waits for ShareLock on transaction 6305513; blocked by process 57104.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (43851,24) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 17:59:26 2015
+tid:-416971008 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 57052 waits for ShareLock on transaction 6440121; blocked by process 56815.
+Process 56815 waits for ShareLock on transaction 6440129; blocked by process 57052.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (44610,57) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 18:00:21 2015
+tid:-420182272 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 57084 waits for ShareLock on transaction 6624512; blocked by process 57116.
+Process 57116 waits for ShareLock on transaction 6624513; blocked by process 57084.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (58354,29) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 18:00:51 2015
+tid:-418175232 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 57064 waits for ShareLock on transaction 6727014; blocked by process 56976.
+Process 56976 waits for ShareLock on transaction 6727029; blocked by process 57064.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (38274,61) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 18:02:18 2015
+tid:-413358336 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 57016 waits for ShareLock on transaction 6948456; blocked by process 57068.
+Process 57068 waits for ShareLock on transaction 6948453; blocked by process 57016.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (59984,86) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 18:02:34 2015
+tid:-421386496 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 57096 waits for ShareLock on transaction 6995749; blocked by process 57100.
+Process 57100 waits for ShareLock on transaction 6995746; blocked by process 57096.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (59914,153) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 18:03:36 2015
+tid:-432625920 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 57208 waits for ShareLock on transaction 7237794; blocked by process 57152.
+Process 57152 waits for ShareLock on transaction 7237792; blocked by process 57208.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (6818,3) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 18:04:01 2015
+tid:-434231552 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 57224 waits for ShareLock on transaction 7338120; blocked by process 57100.
+Process 57100 waits for ShareLock on transaction 7338116; blocked by process 57224.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (61163,197) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 18:04:17 2015
+tid:-426203392 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 57144 waits for ShareLock on transaction 7394679; blocked by process 57060.
+Process 57060 waits for ShareLock on transaction 7394677; blocked by process 57144.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (61049,215) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 18:05:42 2015
+tid:-423794944 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 57120 waits for ShareLock on transaction 7662263; blocked by process 56829.
+Process 56829 waits for ShareLock on transaction 7662271; blocked by process 57120.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (51380,86) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 18:05:51 2015
+tid:-425801984 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 57140 waits for ShareLock on transaction 7698974; blocked by process 57172.
+Process 57172 waits for ShareLock on transaction 7698980; blocked by process 57140.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (51567,170) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 18:06:25 2015
+tid:-409344256 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 56976 waits for ShareLock on transaction 7827843; blocked by process 56894.
+Process 56894 waits for ShareLock on transaction 7827847; blocked by process 56976.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (53981,67) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 18:06:33 2015
+tid:-422590720 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 57108 waits for ShareLock on transaction 7857874; blocked by process 57168.
+Process 57168 waits for ShareLock on transaction 7857916; blocked by process 57108.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (46224,163) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 18:06:51 2015
+tid:-425400576 /home/mark/src/dbt2/src/libpq/dbc_new_order.c:111
+ERROR:  deadlock detected
+DETAIL:  Process 57136 waits for ShareLock on transaction 7930567; blocked by process 56992.
+Process 56992 waits for ShareLock on transaction 7930573; blocked by process 57136.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (53493,100) in relation "stock"
+SQL statement "UPDATE stock
+SET s_quantity = s_quantity - $1
+WHERE s_i_id = $2
+  AND s_w_id = $3"
+
+Wed May  6 18:07:00 2015
+tid:-419244288 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-435439872 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-407603456 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-430885120 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-410011904 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-425265408 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-420047104 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-411617536 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-415230208 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-412420352 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-424462592 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-428075264 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-418040064 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-421251328 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-415631616 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-429680896 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-434096384 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-435980544 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-422054144 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-414427392 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-411216128 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-435710208 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-433694976 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-434497792 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-422856960 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-416835840 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-426469632 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-409610496 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-418842880 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-436115712 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-418441472 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-379529472 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-435575040 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-426871040 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-420849920 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-429279488 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-424864000 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-428878080 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-436250880 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-420448512 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-421652736 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-427673856 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-412018944 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-431286528 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-431687936 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-416434432 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-424061184 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-423659776 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-414025984 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-419645696 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-413223168 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-428476672 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-408004864 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-434899200 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-410413312 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-427272448 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-435169536 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-432892160 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-409209088 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-425666816 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-430082304 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-435034368 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-432089344 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-417638656 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-413624576 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-430483712 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-422455552 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-416033024 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-423258368 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-426068224 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-417237248 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-435304704 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-408807680 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-414828800 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-432490752 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-410814720 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-435845376 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-433293568 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-412821760 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive
+Wed May  6 18:07:00 2015
+tid:-408406272 /home/mark/src/dbt2/src/client_interface.c:33
+socket closed on _receive

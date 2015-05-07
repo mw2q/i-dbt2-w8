@@ -1,0 +1,129 @@
+connecting to client at 'localhost'
+connecting to client port at '30000'
+
+database table cardinalities:
+warehouses = 8
+districts = 10
+customers = 3000
+items = 100000
+orders = 3000
+stock = 100000
+new-orders = 900
+
+transaction mix:
+new-order mix 0.45
+payment mix 0.43
+order-status mix 0.04
+delivery mix 0.04
+stock-level mix 0.04
+
+transaction thresholds:
+new-order threshold 0.45
+payment threshold 0.88
+order-status threshold 0.92
+delivery threshold 0.96
+stock-level threshold 1.00
+
+delivery keying time 0 s
+new_order keying time 0 s
+order-status keying time 0 s
+payment keying time 0 s
+stock-level keying time 0 s
+
+delivery thinking time 0 ms
+new_order thinking time 0 ms
+order-status thinking time 0 ms
+payment thinking time 0 ms
+stock-level thinking time 0 ms
+
+w_id range 1 to 8
+
+10 terminals per warehouse
+
+600 second steady state duration
+
+driver is starting to ramp up at time 1430927813
+driver will ramp up in  7 seconds
+will stop test at time 1430928420
+seed for 56863:f4ca0700 : 2709733386
+seed for 56863:f4c7f700 : 2710058806
+seed for 56863:f4c5e700 : 2710154808
+seed for 56863:f4c3d700 : 2709587252
+seed for 56863:f4c1c700 : 2709691428
+seed for 56863:f4bfb700 : 2717783240
+seed for 56863:f4bda700 : 2717617134
+seed for 56863:f4bb9700 : 2717852303
+seed for 56863:f4b98700 : 2717120499
+seed for 56863:f4b77700 : 2717879950
+seed for 56863:f4b56700 : 2717656485
+seed for 56863:f4b35700 : 2717686858
+seed for 56863:f4b14700 : 2717717357
+seed for 56863:f4af3700 : 2716723736
+seed for 56863:f4ad2700 : 2716729657
+seed for 56863:f3b82700 : 2801371607
+seed for 56863:f3b61700 : 2800755438
+seed for 56863:f3b40700 : 2800794962
+seed for 56863:f3b1f700 : 2801514437
+seed for 56863:f3afe700 : 2800168703
+seed for 56863:f3add700 : 2799994347
+seed for 56863:f3abc700 : 2799967382
+seed for 56863:f3a9b700 : 2800064653
+seed for 56863:f3a7a700 : 2800029568
+seed for 56863:f3a59700 : 2800133808
+seed for 56863:f3a38700 : 2799844782
+seed for 56863:f3a17700 : 2800187005
+seed for 56863:f39f6700 : 2799430951
+seed for 56863:f39d5700 : 2799108704
+seed for 56863:f39b4700 : 2798885226
+seed for 56863:f3993700 : 2798653826
+seed for 56863:f3972700 : 2799208544
+seed for 56863:f3951700 : 2799255398
+seed for 56863:f3930700 : 2798762225
+seed for 56863:f390f700 : 2798899146
+seed for 56863:f38ee700 : 2798610241
+seed for 56863:f38cd700 : 2798305332
+seed for 56863:f38ac700 : 2798559652
+seed for 56863:f388b700 : 2797770488
+seed for 56863:f386a700 : 2798521828
+seed for 56863:f3849700 : 2798494973
+seed for 56863:f3828700 : 2798468089
+seed for 56863:f3807700 : 2798417214
+seed for 56863:f37e6700 : 2789010468
+seed for 56863:f37c5700 : 2789165651
+seed for 56863:f37a4700 : 2788893038
+seed for 56863:f3783700 : 2789203104
+seed for 56863:f3762700 : 2788315607
+seed for 56863:f3741700 : 2789090577
+seed for 56863:f3720700 : 2788867178
+seed for 56863:f36ff700 : 2787570540
+seed for 56863:f36de700 : 2787274882
+seed for 56863:f36bd700 : 2787624726
+seed for 56863:f369c700 : 2787859999
+seed for 56863:f367b700 : 2787595576
+seed for 56863:f365a700 : 2787431200
+seed for 56863:f3639700 : 2787403606
+seed for 56863:f3618700 : 2787508184
+seed for 56863:f35f7700 : 2786423583
+seed for 56863:f35d6700 : 2786454022
+seed for 56863:f35b5700 : 2786215860
+seed for 56863:f3594700 : 2786515600
+seed for 56863:f3573700 : 2786775453
+seed for 56863:f3552700 : 2786543726
+seed for 56863:f3531700 : 2786328426
+seed for 56863:f3510700 : 2786098068
+seed for 56863:f34ef700 : 2785620621
+seed for 56863:f34ce700 : 2785585544
+seed for 56863:f34ad700 : 2785067311
+seed for 56863:f348c700 : 2785040429
+seed for 56863:f346b700 : 2785562840
+seed for 56863:f344a700 : 2785792808
+seed for 56863:f3429700 : 2786027268
+seed for 56863:f3408700 : 2785213732
+seed for 56863:f33e7700 : 2793321985
+seed for 56863:f33c6700 : 2793222880
+seed for 56863:f33a5700 : 2793245997
+seed for 56863:f3384700 : 2793170352
+seed for 56863:f3363700 : 2793265915
+seed for 56863:f3342700 : 2793165310
+terminals started...
+driver is exiting normally
